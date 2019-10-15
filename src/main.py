@@ -12,6 +12,11 @@ import numpy as np
 from nms import nms
 
 
+# created if not exits an output folder
+try:
+    os.mkdir('output')
+except:
+    pass
 output_folder = os.path.join(os.path.abspath(os.curdir), 'output')
 
 
