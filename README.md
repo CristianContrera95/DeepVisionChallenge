@@ -1,9 +1,8 @@
 # DeevVisionChallenge
+You must have Docker installed  
 
-Once the project is downloaded, run:
-`chmod + x run.sh` 
 
-Then run (without fear):
+Once the project is downloaded, run (without fear):  
 `./run.sh`
 
 
