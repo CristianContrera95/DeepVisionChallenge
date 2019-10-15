@@ -10,4 +10,4 @@ then
 	docker build -t $DOCKER_NAME .
 fi
 
-echo "docker run --user $UID -v $PWD/:/usr/src/app -it --entrypoint python $DOCKER_NAME src/main.py $1 $2"
+docker run --user $UID -v $PWD/:/usr/src/app -it --entrypoint python $DOCKER_NAME src/main.py $1 $2
